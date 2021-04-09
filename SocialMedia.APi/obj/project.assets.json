@@ -1,0 +1,125 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SocialMedia.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/SocialMedia.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SocialMedia.Core.dll": {}
+        }
+      },
+      "SocialMedia.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "SocialMedia.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SocialMedia.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SocialMedia.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SocialMedia.Core/1.0.0": {
+      "type": "project",
+      "path": "../SocialMedia.Core/SocialMedia.Core.csproj",
+      "msbuildProject": "../SocialMedia.Core/SocialMedia.Core.csproj"
+    },
+    "SocialMedia.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../SocialMedia.Infrastructure/SocialMedia.Infrastructure.csproj",
+      "msbuildProject": "../SocialMedia.Infrastructure/SocialMedia.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "SocialMedia.Core >= 1.0.0",
+      "SocialMedia.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Adrian\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "Z:\\Users\\Adrian\\source\\repos\\SocialMedia\\SocialMedia.APi\\SocialMedia.APi.csproj",
+      "projectName": "SocialMedia.APi",
+      "projectPath": "Z:\\Users\\Adrian\\source\\repos\\SocialMedia\\SocialMedia.APi\\SocialMedia.APi.csproj",
+      "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+      "outputPath": "Z:\\Users\\Adrian\\source\\repos\\SocialMedia\\SocialMedia.APi\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "Z:\\Users\\Adrian\\source\\repos\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj": {
+              "projectPath": "Z:\\Users\\Adrian\\source\\repos\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj"
+            },
+            "Z:\\Users\\Adrian\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj": {
+              "projectPath": "Z:\\Users\\Adrian\\source\\repos\\SocialMedia\\SocialMedia.Infrastructure\\SocialMedia.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
