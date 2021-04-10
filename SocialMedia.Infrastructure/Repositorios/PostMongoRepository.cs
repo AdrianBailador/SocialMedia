@@ -8,18 +8,18 @@ using System.Threading.Tasks;
 
 namespace SocialMedia.Infrastructure.Repositorios
 {
-    public class PostRepository : IPostRepository
+    public class PostMongoRepository : IPostRepository
     {
-      
+
         public async Task<IEnumerable<Post>> GetPosts()
         {
             var posts = Enumerable.Range(1, 10).Select(x => new Post
             {
                 PostId = x,
-                Description = $"Description {x}",
+                Description = $"Description Mongo {x}",
                 Date = DateTime.Now,
                 Image = $"https://misapis.com/{x}",
-                UserId = x*2
+                UserId = x * 2
             });
 
             await Task.Delay(10);

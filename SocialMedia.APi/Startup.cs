@@ -6,6 +6,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using SocialMedia.Core.Interfaces;
+using SocialMedia.Infrastructure.Repositorios;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +28,11 @@ namespace SocialMedia.APi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            //Resolver nuestras dependecias
+            services.AddTransient<IPostRepository, PostRepository>();
+            //Simplemente si queremos cambiar de SQL a Mongo seria realizar el cambio aqui
+            //services.AddTransient<IPostRepository, PostMongoRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

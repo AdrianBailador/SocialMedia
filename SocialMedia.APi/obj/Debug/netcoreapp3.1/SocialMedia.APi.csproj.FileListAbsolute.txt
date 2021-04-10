@@ -1,3 +1,8 @@
+Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\obj\Debug\netcoreapp3.1\SocialMedia.APi.csprojAssemblyReference.cache
+Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\obj\Debug\netcoreapp3.1\SocialMedia.APi.AssemblyInfoInputs.cache
+Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\obj\Debug\netcoreapp3.1\SocialMedia.APi.AssemblyInfo.cs
+Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\obj\Debug\netcoreapp3.1\SocialMedia.APi.csproj.CoreCompileInputs.cache
+Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\obj\Debug\netcoreapp3.1\SocialMedia.APi.MvcApplicationPartsAssemblyInfo.cache
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\bin\Debug\netcoreapp3.1\appsettings.Development.json
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\bin\Debug\netcoreapp3.1\appsettings.json
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\bin\Debug\netcoreapp3.1\SocialMedia.APi.exe
@@ -10,11 +15,6 @@ Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\bin\Debug\netcoreapp3.1
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\bin\Debug\netcoreapp3.1\SocialMedia.Infrastructure.dll
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\bin\Debug\netcoreapp3.1\SocialMedia.Core.pdb
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\bin\Debug\netcoreapp3.1\SocialMedia.Infrastructure.pdb
-Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\obj\Debug\netcoreapp3.1\SocialMedia.APi.csprojAssemblyReference.cache
-Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\obj\Debug\netcoreapp3.1\SocialMedia.APi.AssemblyInfoInputs.cache
-Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\obj\Debug\netcoreapp3.1\SocialMedia.APi.AssemblyInfo.cs
-Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\obj\Debug\netcoreapp3.1\SocialMedia.APi.csproj.CoreCompileInputs.cache
-Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\obj\Debug\netcoreapp3.1\SocialMedia.APi.MvcApplicationPartsAssemblyInfo.cache
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\obj\Debug\netcoreapp3.1\staticwebassets\SocialMedia.APi.StaticWebAssets.Manifest.cache
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\obj\Debug\netcoreapp3.1\staticwebassets\SocialMedia.APi.StaticWebAssets.xml
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\obj\Debug\netcoreapp3.1\scopedcss\bundle\SocialMedia.APi.styles.css
