@@ -65,22 +65,24 @@ namespace SocialMedia.Infrastructure.Data
 
             modelBuilder.Entity<Post>(entity =>
             {
+
+                entity.ToTable("Publicacion");
                 entity.HasKey(e => e.PostId);
 
                 entity.Property(e => e.PostId).HasColumnName("IdPublicacion");
 
                 entity.Property(e => e.UserId).HasColumnName("IdUsuario");
 
-                //entity.ToTable("Post");
+               
 
-                entity.Property(e => e.Description)
+                entity.Property(e => e.Description).HasColumnName("Descripcion")
                     .IsRequired()
                     .HasMaxLength(1000)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Date).HasColumnType("datetime");
+                entity.Property(e => e.Date).HasColumnName("Fecha").HasColumnType("datetime");
 
-                entity.Property(e => e.Image).HasColumnType("Imagen")
+                entity.Property(e => e.Image).HasColumnName("Imagen")
                     .HasMaxLength(500)
                     .IsUnicode(false);
 
@@ -93,11 +95,14 @@ namespace SocialMedia.Infrastructure.Data
 
             modelBuilder.Entity<User>(entity =>
             {
+
+                entity.ToTable("Usuario");
+
                 entity.HasKey(e => e.UserId);
 
                 entity.Property(e => e.UserId).HasColumnName("IdUsuario");
 
-                //entity.ToTable("User");
+               
 
                 entity.Property(e => e.LastName).HasColumnName("Apellidos")
                     .IsRequired()
