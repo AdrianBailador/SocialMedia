@@ -86,7 +86,7 @@ Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.IntegrationTests\bin\Debug\
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.IntegrationTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.IntegrationTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.IntegrationTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.IntegrationTests\obj\Debug\netcoreapp3.1\SocialMedia.IntegrationTests.csprojAssemblyReference.cache
+Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.IntegrationTests\obj\Debug\netcoreapp3.1\SocialMedia.IntegrationTests.csproj.AssemblyReference.cache
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.IntegrationTests\obj\Debug\netcoreapp3.1\SocialMedia.IntegrationTests.AssemblyInfoInputs.cache
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.IntegrationTests\obj\Debug\netcoreapp3.1\SocialMedia.IntegrationTests.AssemblyInfo.cs
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.IntegrationTests\obj\Debug\netcoreapp3.1\SocialMedia.IntegrationTests.csproj.CoreCompileInputs.cache

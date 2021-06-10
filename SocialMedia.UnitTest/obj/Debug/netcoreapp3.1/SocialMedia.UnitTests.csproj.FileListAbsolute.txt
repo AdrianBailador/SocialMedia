@@ -86,7 +86,7 @@ Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.UnitTest\bin\Debug\netcorea
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.UnitTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.UnitTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.UnitTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.UnitTest\obj\Debug\netcoreapp3.1\SocialMedia.UnitTests.csprojAssemblyReference.cache
+Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.UnitTest\obj\Debug\netcoreapp3.1\SocialMedia.UnitTests.csproj.AssemblyReference.cache
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.UnitTest\obj\Debug\netcoreapp3.1\SocialMedia.UnitTests.AssemblyInfoInputs.cache
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.UnitTest\obj\Debug\netcoreapp3.1\SocialMedia.UnitTests.AssemblyInfo.cs
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.UnitTest\obj\Debug\netcoreapp3.1\SocialMedia.UnitTests.csproj.CoreCompileInputs.cache
