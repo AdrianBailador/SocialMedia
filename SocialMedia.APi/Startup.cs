@@ -1,3 +1,4 @@
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -15,6 +16,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
 
 namespace SocialMedia.APi
 {
@@ -37,7 +39,7 @@ namespace SocialMedia.APi
             {
                 options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
             }).ConfigureApiBehaviorOptions(options => {
-                options.SuppressModelStateInvalidFilter = true;   //Seguimos utilizando ApiCOntroller pero que no nos valide el modelo (lo validamos de forma manual)
+                //options.SuppressModelStateInvalidFilter = true;   //Seguimos utilizando ApiCOntroller pero que no nos valide el modelo (lo validamos de forma manual)
             });  
             
 
@@ -53,6 +55,8 @@ namespace SocialMedia.APi
             services.AddMvc(options =>
             {
                 options.Filters.Add<ValidationFilter>();
+            }).AddFluentValidation(options => {
+                options.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies());
             });
         }
 

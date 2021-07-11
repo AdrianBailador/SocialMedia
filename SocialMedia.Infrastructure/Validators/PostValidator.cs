@@ -12,7 +12,12 @@ namespace SocialMedia.Infrastructure.Validators
         {
             RuleFor(post => post.Description)
                 .NotNull()
-                .Length(10, 500);
+                .Length(10, 15);
+
+            RuleFor(post => post.Date)
+               .NotNull()
+               .LessThan(DateTime.Now); //Que la fecha sea menor
+              
         }
        
     }
