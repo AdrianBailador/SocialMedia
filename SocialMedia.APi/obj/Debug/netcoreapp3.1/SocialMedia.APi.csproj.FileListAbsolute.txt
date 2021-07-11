@@ -70,3 +70,4 @@ Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\obj\Debug\netcoreapp3.1
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\obj\Debug\netcoreapp3.1\SocialMedia.APi.genruntimeconfig.cache
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\bin\Debug\netcoreapp3.1\AutoMapper.dll
 Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+Z:\Users\Adrian\source\repos\SocialMedia\SocialMedia.APi\obj\Debug\netcoreapp3.1\SocialMedia.APi.MvcApplicationPartsAssemblyInfo.cs

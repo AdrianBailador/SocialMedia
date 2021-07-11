@@ -32,7 +32,7 @@ namespace SocialMedia.APi.Controllers
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetPost(int id)
-        {
+        {          
             var post = await _postRepository.GetPost(id);
             var postsDto = _mapper.Map<IEnumerable<PostDto>>(post);
             return Ok(postsDto);

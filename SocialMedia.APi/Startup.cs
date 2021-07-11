@@ -9,6 +9,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using SocialMedia.Core.Interfaces;
 using SocialMedia.Infrastructure.Data;
+using SocialMedia.Infrastructure.Filters;
 using SocialMedia.Infrastructure.Repositorios;
 using System;
 using System.Collections.Generic;
@@ -32,10 +33,15 @@ namespace SocialMedia.APi
             //En el dominio de nuestra app obtenga los compilados de nuestros proyectos y buscame los profiles
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             //Ignorar referencias circulares
-            services.AddControllers().AddNewtonsoftJson(options => 
+            services.AddControllers().AddNewtonsoftJson(options =>
             {
                 options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
-            });           
+            }).ConfigureApiBehaviorOptions(options => {
+                options.SuppressModelStateInvalidFilter = true;   //Seguimos utilizando ApiCOntroller pero que no nos valide el modelo (lo validamos de forma manual)
+            });  
+            
+
+
 
             services.AddDbContext<SocialMediaContext>(options => options.UseSqlServer(Configuration.GetConnectionString("SocialMedia")));
 
@@ -43,6 +49,11 @@ namespace SocialMedia.APi
             services.AddTransient<IPostRepository, PostRepository>();
             //Simplemente si queremos cambiar de SQL a Mongo seria realizar el cambio aqui
             //services.AddTransient<IPostRepository, PostMongoRepository>();
+
+            services.AddMvc(options =>
+            {
+                options.Filters.Add<ValidationFilter>();
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
